@@ -1,0 +1,80 @@
+.container {
+    margin:auto;
+    width:1170px ;
+    }
+/*Start header*/
+  /* Start Navbar*/
+
+  .header .navbar{
+    background-color :black;
+    color: white;
+    overflow: hidden;
+}
+.header .navbar h2{
+    float: left;
+}
+.header .navbar h2 span {
+    color: yellow;
+}
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    float: right;
+}
+.header .navbar ul li {
+    float: left;
+    padding: 10px;
+}
+
+.header .navbar ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header .navbar ul li .active a{
+    color: yellow;
+  }
+  .header .navbar ul li a:hover{
+    color: yellow;
+}
+    /* End Navbar*/
+/*End header*/
+
+/*Start About Us*/
+.about{
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    background-image: url(../images/about2\ .png );
+    background-size: cover;
+
+}
+
+.about h1{
+    float: left ;
+    width:30% ;
+    padding-top: 400px;
+    margin-top: auto;
+    size: 200px;
+}
+
+.about .info{
+    
+    float:left;
+    width: 70%;
+} 
+
+  /*--Start Footer*/
+  .footer {
+    background-color :black;
+    color: white;
+    overflow: hidden;
+ }
+
+ .footer  p {
+     text-align: center;
+     color: white;
+ }
+  /*--End Footer*/
